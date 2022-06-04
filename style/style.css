@@ -207,6 +207,7 @@ nav {
 /* main_right */
 .main_right {
     width: 84%;
+    min-height: 900px;
     height: 100%;
     background: #F5F7FA;
     display: flex;
@@ -310,7 +311,7 @@ nav {
     position: relative;
     border-radius: 10px;
     /* border: 2px solid red; */
-    margin-top: 0px;
+    margin-top: 42px;
 
 }
 
@@ -568,6 +569,7 @@ footer {
         flex-direction: column;
         max-width: 410px;
         margin: 0 auto;
+        margin-top: 42px;
         position: relative;
         left: -60px;
     }
@@ -577,15 +579,18 @@ footer {
     .box_pages{
         margin-top: 95px;
     }
+        /* main_right */
+        .main_right {
+            width: 84%;
+            padding-right: 25px;
+            min-height: 1650px;
+            /* border: 2px solid red; */
+        }
 }
 @media only screen and (max-width: 1625px) {
 
 
-    /* main_right */
-    .main_right {
-        width: 84%;
-        padding-right: 25px;
-    }
+
 
     /* box_advertising */
     .box_advertising__name {
@@ -684,6 +689,7 @@ footer {
     .box_content {
         justify-content: center;
         left: 0px;
+        margin-top: 0px;
     }
     /* header styles */
     header {
@@ -856,7 +862,7 @@ footer {
     .main_right {
         top: 25px;
         width: 100%;
-        min-height: 1300px;
+        min-height: 1250px;
         padding-right: 0px;
         padding-left: 0px;
     }
@@ -898,6 +904,7 @@ footer {
         height: 198px;
         border-radius: 0px;
         padding-right: 0px;
+        display: none;
     }
 
     .box_advertising__name {
