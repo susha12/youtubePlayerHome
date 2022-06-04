@@ -304,7 +304,7 @@ nav {
     min-height: 350px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+/*     flex-wrap: wrap; */
     align-items: flex-start;
     justify-content: space-between;
     position: relative;
