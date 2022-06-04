@@ -110,7 +110,7 @@ header {
 /* box_body */
 .box_body {
     width: 100%;
-    min-height: 850px;
+    min-height: 800px;
     display: flex;
     justify-content: start;
     align-items: flex-start;
@@ -310,7 +310,7 @@ nav {
     position: relative;
     border-radius: 10px;
     border: 2px solid red;
-    margin-top: 46px;
+    margin-top: 0px;
 
 }
 
@@ -562,7 +562,7 @@ footer {
 }
 @media only screen and (max-width: 1690px) {
     .box_body {
-        min-height: 1600px;
+        min-height: 1400px;
     }
     .box_content{
         flex-direction: column;
@@ -666,7 +666,7 @@ footer {
 
 @media screen and (max-width: 1279px) {
     .box_body {
-        min-height: 1600px;
+        min-height: 1400px;
     }
 
     .box_content {
@@ -916,6 +916,9 @@ footer {
     .box_pages {
         left: 0px;
         margin-top: 50px;
+    }
+    .box_content{
+        margin-top: 10px;
     }
     .box_content__one {
         max-height: 328px;
