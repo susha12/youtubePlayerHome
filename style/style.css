@@ -278,7 +278,7 @@ nav {
     border-radius: 10px;
     padding-right: 25px;
     box-shadow: rgba(0, 0, 0, 0.55) 2px 2px 5px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .box_advertising__name {
@@ -304,12 +304,12 @@ nav {
     min-height: 350px;
     display: flex;
     flex-direction: row;
-/*     flex-wrap: wrap; */
+    /* flex-wrap: wrap; */
     align-items: flex-start;
     justify-content: space-between;
     position: relative;
     border-radius: 10px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 0px;
 
 }
@@ -325,7 +325,7 @@ nav {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     position: relative;
     /* margin: 10px; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .box_content__one.two{
     margin: 0 10px;
@@ -340,7 +340,7 @@ nav {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .big_slider__left {
@@ -465,7 +465,7 @@ nav {
     justify-content: center;
     margin: 33px 0px;
     position: relative;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .pages_numbers {
@@ -528,7 +528,7 @@ footer {
     left: 0px;
     padding-left: 100px;
     margin-top: 200px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .box_footer {
@@ -678,7 +678,7 @@ footer {
 @media screen and (max-width: 935px) {
     .box_main {
         max-width: 390px;
-        border: 2px solid rgb(255, 0, 0);
+        /* border: 2px solid rgb(255, 0, 0); */
         height: 1410px;
     }
     .box_content {
@@ -752,8 +752,8 @@ footer {
     /* box_body */
     .box_body {
         width: 390px;
-        border: 2px solid red;
-        min-height: 1330px;
+        /* border: 2px solid red; */
+        min-height: 1326px;
         flex-direction: column;
         position: relative;
     }
